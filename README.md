@@ -15,5 +15,5 @@ $ helm repo index --url https://cg5labs.github.io/helm-charts .
 
 Links:
 
-[[ https://medium.com/@mattiaperi/create-a-public-helm-chart-repository-with-github-pages-49b180dbb417 | Create a public Helm chart repository with GitHub Pages ]]
+[ Create a public Helm chart repository with GitHub Pages ] (https://medium.com/@mattiaperi/create-a-public-helm-chart-repository-with-github-pages-49b180dbb417)
 

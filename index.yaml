@@ -3,7 +3,7 @@ entries:
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-07T17:54:02.206363+08:00"
+    created: "2022-12-08T22:39:33.330782+08:00"
     description: A Helm chart for Kubernetes
     digest: 2ba31e7201681847b09f46ec8d1d8577663a6a33c5056b36793a45d867318004
     name: helm-example
@@ -14,12 +14,12 @@ entries:
   helm-example2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-07T17:54:02.206902+08:00"
+    created: "2022-12-08T22:39:33.331087+08:00"
     description: A Helm chart for Kubernetes
-    digest: 930c0d9009a46f3aa55ac805a00bd682111f58dd22756429d3dcb00ac7b0d7a0
+    digest: 994113960e2ce7ffcef3f74123cb146f1c18c9e2a0b22299313bc299aef67423
     name: helm-example2
     type: application
     urls:
     - https://cg5labs.github.io/helm-charts/helm-example2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-07T17:54:02.204003+08:00"
+generated: "2022-12-08T22:39:33.328788+08:00"

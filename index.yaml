@@ -1,9 +1,23 @@
 apiVersion: v1
 entries:
+  cert-manager-subchart:
+  - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2023-04-30T15:59:36.070022+08:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.1.1
+    digest: 404d5f8694811de6fb11609cc8578515e996be453fa4a9f682375312cf88545e
+    name: cert-manager-subchart
+    type: application
+    urls:
+    - https://cg5labs.github.io/helm-charts/cert-manager-subchart-1.1.1.tgz
+    version: 1.1.1
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T22:39:33.330782+08:00"
+    created: "2023-04-30T15:59:36.071714+08:00"
     description: A Helm chart for Kubernetes
     digest: 2ba31e7201681847b09f46ec8d1d8577663a6a33c5056b36793a45d867318004
     name: helm-example
@@ -14,7 +28,7 @@ entries:
   helm-example2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T22:39:33.331087+08:00"
+    created: "2023-04-30T15:59:36.07353+08:00"
     description: A Helm chart for Kubernetes
     digest: 994113960e2ce7ffcef3f74123cb146f1c18c9e2a0b22299313bc299aef67423
     name: helm-example2
@@ -22,4 +36,4 @@ entries:
     urls:
     - https://cg5labs.github.io/helm-charts/helm-example2-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-08T22:39:33.328788+08:00"
+generated: "2023-04-30T15:59:36.056848+08:00"

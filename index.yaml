@@ -3,7 +3,7 @@ entries:
   cert-manager-subchart:
   - apiVersion: v2
     appVersion: v1.11.1
-    created: "2023-05-05T16:22:57.695893+08:00"
+    created: "2023-05-05T16:41:14.258516+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -17,7 +17,7 @@ entries:
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-05T16:22:57.696177+08:00"
+    created: "2023-05-05T16:41:14.258775+08:00"
     description: A Helm chart for Kubernetes
     digest: 2ba31e7201681847b09f46ec8d1d8577663a6a33c5056b36793a45d867318004
     name: helm-example
@@ -28,7 +28,7 @@ entries:
   helm-example2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-05T16:22:57.696762+08:00"
+    created: "2023-05-05T16:41:14.25902+08:00"
     description: A Helm chart for Kubernetes
     digest: 994113960e2ce7ffcef3f74123cb146f1c18c9e2a0b22299313bc299aef67423
     name: helm-example2
@@ -39,7 +39,21 @@ entries:
   kube-prometheus-subchart:
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2023-05-05T16:22:57.783984+08:00"
+    created: "2023-05-05T16:41:14.36918+08:00"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 45.25.0
+    description: Wrapper chart for kube-prometheus-stack for customization
+    digest: 67fe96bd49f585c71eda7af8735654f7abbbe3963f386118aab124df0b196fdd
+    name: kube-prometheus-subchart
+    type: application
+    urls:
+    - https://cg5labs.github.io/helm-charts/kube-prometheus-subchart-45.25.1.tgz
+    version: 45.25.1
+  - apiVersion: v2
+    appVersion: 45.25.0
+    created: "2023-05-05T16:41:14.349002+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -53,7 +67,7 @@ entries:
     version: 45.25.0
   - apiVersion: v2
     appVersion: 34.1.3
-    created: "2023-05-05T16:22:57.761443+08:00"
+    created: "2023-05-05T16:41:14.327848+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -67,7 +81,7 @@ entries:
     version: 34.1.3
   - apiVersion: v2
     appVersion: 34.1.2
-    created: "2023-05-05T16:22:57.74038+08:00"
+    created: "2023-05-05T16:41:14.3061+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -81,7 +95,7 @@ entries:
     version: 34.1.2
   - apiVersion: v2
     appVersion: 34.1.1
-    created: "2023-05-05T16:22:57.718983+08:00"
+    created: "2023-05-05T16:41:14.284174+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -93,4 +107,4 @@ entries:
     urls:
     - https://cg5labs.github.io/helm-charts/kube-prometheus-subchart-34.1.1.tgz
     version: 34.1.1
-generated: "2023-05-05T16:22:57.68723+08:00"
+generated: "2023-05-05T16:41:14.252195+08:00"

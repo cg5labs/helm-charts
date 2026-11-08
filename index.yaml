@@ -3,7 +3,7 @@ entries:
   cert-manager-subchart:
   - apiVersion: v2
     appVersion: v1.17.1
-    created: "2026-11-08T21:48:50.71364257+08:00"
+    created: "2026-11-08T22:18:53.556899153+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -16,7 +16,7 @@ entries:
     version: v1.17.1
   - apiVersion: v2
     appVersion: v1.11.1
-    created: "2026-11-08T21:48:50.700045076+08:00"
+    created: "2026-11-08T22:18:53.533439923+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -30,7 +30,7 @@ entries:
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-08T21:48:50.714116309+08:00"
+    created: "2026-11-08T22:18:53.557706579+08:00"
     description: A Helm chart for Kubernetes
     digest: 2ba31e7201681847b09f46ec8d1d8577663a6a33c5056b36793a45d867318004
     name: helm-example
@@ -41,7 +41,7 @@ entries:
   helm-example2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-08T21:48:50.715166393+08:00"
+    created: "2026-11-08T22:18:53.558237187+08:00"
     description: A Helm chart for Kubernetes
     digest: 994113960e2ce7ffcef3f74123cb146f1c18c9e2a0b22299313bc299aef67423
     name: helm-example2
@@ -52,13 +52,27 @@ entries:
   kube-prometheus-stack:
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-08T21:48:50.84483945+08:00"
+    created: "2026-11-08T22:18:53.762157054+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
       version: 45.25.0
     description: Wrapper chart for kube-prometheus-stack for customization
-    digest: a1fd341195e7ef202d33fd57cef65f98b16e1464d340e425558557f8f05912e5
+    digest: 6a86fc14f45cfac22e5bab407bae7ba59d1cb4244a6b9a5b282ce55ef6acdb5d
+    name: kube-prometheus-stack
+    type: application
+    urls:
+    - https://cg5labs.github.io/helm-charts/kube-prometheus-stack-45.25.6.tgz
+    version: 45.25.6
+  - apiVersion: v2
+    appVersion: 45.25.0
+    created: "2026-11-08T22:18:53.71973182+08:00"
+    dependencies:
+    - name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 45.25.0
+    description: Wrapper chart for kube-prometheus-stack for customization
+    digest: 1d8631cd899352c5e2ea3f0540155b7989240d193fe2fc36a4764f5530f21cd6
     name: kube-prometheus-stack
     type: application
     urls:
@@ -66,7 +80,7 @@ entries:
     version: 45.25.5
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-08T21:48:50.812351753+08:00"
+    created: "2026-11-08T22:18:53.685412124+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -80,7 +94,7 @@ entries:
     version: 45.25.4
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-08T21:48:50.781705504+08:00"
+    created: "2026-11-08T22:18:53.646197214+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -94,7 +108,7 @@ entries:
     version: 45.25.3
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-08T21:48:50.749085886+08:00"
+    created: "2026-11-08T22:18:53.6039525+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -109,7 +123,7 @@ entries:
   postgresql-nextcloud:
   - apiVersion: v2
     appVersion: 5.3.1
-    created: "2026-11-08T21:48:50.845617085+08:00"
+    created: "2026-11-08T22:18:53.762924683+08:00"
     description: A Helm chart for Kubernetes
     digest: e0a735f764d01a5fdffb47b61dc79f5ef52aaa66aa3739a0044ff4f602e0aeff
     name: postgresql-nextcloud
@@ -117,4 +131,4 @@ entries:
     urls:
     - https://cg5labs.github.io/helm-charts/postgresql-nextcloud-5.3.1.tgz
     version: 5.3.1
-generated: "2026-11-08T21:48:50.687544337+08:00"
+generated: "2026-11-08T22:18:53.51657142+08:00"

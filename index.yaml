@@ -3,7 +3,7 @@ entries:
   cert-manager-subchart:
   - apiVersion: v2
     appVersion: 1.20.5
-    created: "2026-11-09T12:43:17.482618355+08:00"
+    created: "2026-11-09T20:03:22.188434779+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -16,7 +16,7 @@ entries:
     version: 1.20.7
   - apiVersion: v2
     appVersion: 1.20.5
-    created: "2026-11-09T12:43:17.470576275+08:00"
+    created: "2026-11-09T20:03:22.177659188+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -29,7 +29,7 @@ entries:
     version: 1.20.6
   - apiVersion: v2
     appVersion: 1.20.5
-    created: "2026-11-09T12:43:17.453850589+08:00"
+    created: "2026-11-09T20:03:22.16273638+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -42,7 +42,7 @@ entries:
     version: 1.20.5
   - apiVersion: v2
     appVersion: v1.17.1
-    created: "2026-11-09T12:43:17.511698215+08:00"
+    created: "2026-11-09T20:03:22.208219452+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -55,7 +55,7 @@ entries:
     version: v1.17.1
   - apiVersion: v2
     appVersion: 1.11.1
-    created: "2026-11-09T12:43:17.440714019+08:00"
+    created: "2026-11-09T20:03:22.141981186+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -68,7 +68,7 @@ entries:
     version: 1.11.1
   - apiVersion: v2
     appVersion: v1.11.1
-    created: "2026-11-09T12:43:17.494233258+08:00"
+    created: "2026-11-09T20:03:22.195239303+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -79,10 +79,24 @@ entries:
     urls:
     - https://cg5labs.github.io/helm-charts/cert-manager-subchart-v1.11.1.tgz
     version: v1.11.1
+  fluent-bit-wrapper:
+  - apiVersion: v2
+    created: "2026-11-09T20:03:22.211090974+08:00"
+    dependencies:
+    - name: fluent-bit
+      repository: https://fluent.github.io/helm-charts
+      version: 0.48.4
+    description: Fluent Bit configured for the monitoring Elasticsearch instance
+    digest: 63bc7626c00e10db3ca47f3dca77c03272af38b53069c8ad63f5c7b1488b7540
+    name: fluent-bit-wrapper
+    type: application
+    urls:
+    - https://cg5labs.github.io/helm-charts/fluent-bit-wrapper-0.1.0.tgz
+    version: 0.1.0
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-09T12:43:17.512045926+08:00"
+    created: "2026-11-09T20:03:22.21159196+08:00"
     description: A Helm chart for Kubernetes
     digest: 2ba31e7201681847b09f46ec8d1d8577663a6a33c5056b36793a45d867318004
     name: helm-example
@@ -93,7 +107,7 @@ entries:
   helm-example2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-09T12:43:17.51232264+08:00"
+    created: "2026-11-09T20:03:22.211977142+08:00"
     description: A Helm chart for Kubernetes
     digest: 994113960e2ce7ffcef3f74123cb146f1c18c9e2a0b22299313bc299aef67423
     name: helm-example2
@@ -104,7 +118,7 @@ entries:
   kube-prometheus-stack:
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T12:43:17.686041068+08:00"
+    created: "2026-11-09T20:03:22.378292123+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -118,7 +132,7 @@ entries:
     version: 45.25.6
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T12:43:17.647030737+08:00"
+    created: "2026-11-09T20:03:22.347863919+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -132,7 +146,7 @@ entries:
     version: 45.25.5
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T12:43:17.607443007+08:00"
+    created: "2026-11-09T20:03:22.316458309+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -146,7 +160,7 @@ entries:
     version: 45.25.4
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T12:43:17.574605851+08:00"
+    created: "2026-11-09T20:03:22.28711491+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -160,7 +174,7 @@ entries:
     version: 45.25.3
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T12:43:17.542753546+08:00"
+    created: "2026-11-09T20:03:22.241244314+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -175,7 +189,7 @@ entries:
   postgresql-nextcloud:
   - apiVersion: v2
     appVersion: 5.3.1
-    created: "2026-11-09T12:43:17.68651166+08:00"
+    created: "2026-11-09T20:03:22.379637336+08:00"
     description: A Helm chart for Kubernetes
     digest: e0a735f764d01a5fdffb47b61dc79f5ef52aaa66aa3739a0044ff4f602e0aeff
     name: postgresql-nextcloud
@@ -183,4 +197,4 @@ entries:
     urls:
     - https://cg5labs.github.io/helm-charts/postgresql-nextcloud-5.3.1.tgz
     version: 5.3.1
-generated: "2026-11-09T12:43:17.434771775+08:00"
+generated: "2026-11-09T20:03:22.132396746+08:00"

@@ -3,7 +3,20 @@ entries:
   cert-manager-subchart:
   - apiVersion: v2
     appVersion: 1.20.5
-    created: "2026-11-09T11:07:02.675937301+08:00"
+    created: "2026-11-09T11:12:16.661389017+08:00"
+    dependencies:
+    - name: cert-manager
+      repository: https://charts.jetstack.io
+      version: v1.20.5
+    digest: f12b9a8e3b28a548c4e62e688462df1d302fbc6eda49eb62848666e42c439155
+    name: cert-manager-subchart
+    type: application
+    urls:
+    - https://cg5labs.github.io/helm-charts/cert-manager-subchart-1.20.7.tgz
+    version: 1.20.7
+  - apiVersion: v2
+    appVersion: 1.20.5
+    created: "2026-11-09T11:12:16.639444866+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -16,7 +29,7 @@ entries:
     version: 1.20.6
   - apiVersion: v2
     appVersion: 1.20.5
-    created: "2026-11-09T11:07:02.658900778+08:00"
+    created: "2026-11-09T11:12:16.621567746+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -29,7 +42,7 @@ entries:
     version: 1.20.5
   - apiVersion: v2
     appVersion: v1.17.1
-    created: "2026-11-09T11:07:02.697500916+08:00"
+    created: "2026-11-09T11:12:16.685605986+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -42,7 +55,7 @@ entries:
     version: v1.17.1
   - apiVersion: v2
     appVersion: v1.11.1
-    created: "2026-11-09T11:07:02.685966252+08:00"
+    created: "2026-11-09T11:12:16.667983575+08:00"
     dependencies:
     - name: cert-manager
       repository: https://charts.jetstack.io
@@ -56,7 +69,7 @@ entries:
   helm-example:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-09T11:07:02.697806038+08:00"
+    created: "2026-11-09T11:12:16.686372908+08:00"
     description: A Helm chart for Kubernetes
     digest: 2ba31e7201681847b09f46ec8d1d8577663a6a33c5056b36793a45d867318004
     name: helm-example
@@ -67,7 +80,7 @@ entries:
   helm-example2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2026-11-09T11:07:02.698095713+08:00"
+    created: "2026-11-09T11:12:16.687089223+08:00"
     description: A Helm chart for Kubernetes
     digest: 994113960e2ce7ffcef3f74123cb146f1c18c9e2a0b22299313bc299aef67423
     name: helm-example2
@@ -78,7 +91,7 @@ entries:
   kube-prometheus-stack:
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T11:07:02.858266277+08:00"
+    created: "2026-11-09T11:12:16.861670719+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -92,7 +105,7 @@ entries:
     version: 45.25.6
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T11:07:02.828632477+08:00"
+    created: "2026-11-09T11:12:16.825825422+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -106,7 +119,7 @@ entries:
     version: 45.25.5
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T11:07:02.794471537+08:00"
+    created: "2026-11-09T11:12:16.790781275+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -120,7 +133,7 @@ entries:
     version: 45.25.4
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T11:07:02.761065684+08:00"
+    created: "2026-11-09T11:12:16.75721121+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -134,7 +147,7 @@ entries:
     version: 45.25.3
   - apiVersion: v2
     appVersion: 45.25.0
-    created: "2026-11-09T11:07:02.72925558+08:00"
+    created: "2026-11-09T11:12:16.723747403+08:00"
     dependencies:
     - name: kube-prometheus-stack
       repository: https://prometheus-community.github.io/helm-charts
@@ -149,7 +162,7 @@ entries:
   postgresql-nextcloud:
   - apiVersion: v2
     appVersion: 5.3.1
-    created: "2026-11-09T11:07:02.85870515+08:00"
+    created: "2026-11-09T11:12:16.862171676+08:00"
     description: A Helm chart for Kubernetes
     digest: e0a735f764d01a5fdffb47b61dc79f5ef52aaa66aa3739a0044ff4f602e0aeff
     name: postgresql-nextcloud
@@ -157,4 +170,4 @@ entries:
     urls:
     - https://cg5labs.github.io/helm-charts/postgresql-nextcloud-5.3.1.tgz
     version: 5.3.1
-generated: "2026-11-09T11:07:02.642058909+08:00"
+generated: "2026-11-09T11:12:16.598276692+08:00"
